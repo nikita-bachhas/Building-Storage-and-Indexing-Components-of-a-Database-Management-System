@@ -2,9 +2,9 @@
 A storage system that uses a text file as a database and a B+ tree for indexing
 
 ## Functionality
-1. The database being used contains the following variable: MovieId, IMDb rating and the vote information for the movies. 
+1. The database being used contains the following variables: MovieId, IMDb rating and the vote information for the movies. 
 2. The database storage is implemented using a text file while a B+ tree is used for indexing
-3. Implemented mapping tables which contain the unique block index to where the tuple is stored 
+3. Mapping tables are implemented which contain the unique block index to where the tuple is stored 
 4. Tested insertion, deletion and search operations and other queries on different block sizes of the database storage to test the efficiency of the B+ tree indexing system
 
 ## Documentation
